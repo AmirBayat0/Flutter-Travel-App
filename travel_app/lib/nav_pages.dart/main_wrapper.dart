@@ -29,6 +29,12 @@ class _MainWrapperState extends State<MainWrapper> {
     super.initState();
   }
 
+  @override
+  void dispose() {
+    pageController.dispose();
+    super.dispose();
+  }
+
   void onTap(int index) {
     setState(() {
       currentIndex = index;

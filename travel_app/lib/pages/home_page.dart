@@ -28,6 +28,11 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     tabController = TabController(length: 3, vsync: this);
     super.initState();
   }
+  @override
+  void dispose() {
+    tabController.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
