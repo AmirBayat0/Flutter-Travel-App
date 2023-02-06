@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../widget/reuseable_text.dart';
 
-class Bar extends StatelessWidget {
-  const Bar({super.key});
+class Mail extends StatelessWidget {
+  const Mail({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,12 +12,12 @@ class Bar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: const [
           Icon(
-            Icons.bar_chart_sharp,
+            Icons.mail,
             size: 200.0,
             color: Colors.deepPurpleAccent,
           ),
           AppText(
-            text: "Bar",
+            text: "Mail",
             size: 20,
             color: Colors.black,
             fontWeight: FontWeight.w400,

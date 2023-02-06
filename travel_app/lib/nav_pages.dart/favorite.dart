@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../widget/reuseable_text.dart';
 
-class Search extends StatelessWidget {
-  const Search({super.key});
+class Bar extends StatelessWidget {
+  const Bar({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,12 +12,12 @@ class Search extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: const [
           Icon(
-            Icons.search,
+            Icons.favorite,
             size: 200.0,
             color: Colors.deepPurpleAccent,
           ),
           AppText(
-            text: "Search",
+            text: "Favorite",
             size: 20,
             color: Colors.black,
             fontWeight: FontWeight.w400,

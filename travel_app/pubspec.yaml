@@ -16,9 +16,7 @@ dependencies:
   animate_do: ^3.0.2
   shape_of_view_null_safe: ^2.0.0
   google_fonts: ^4.0.1
-  bloc: ^8.1.1
-  flutter_bloc: ^8.1.1
-  equatable: ^2.0.5
+  water_drop_nav_bar: ^2.2.0+5
 
 dev_dependencies:
   flutter_test:
