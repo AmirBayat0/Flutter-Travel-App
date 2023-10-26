@@ -116,7 +116,7 @@ class _WelcomePageState extends State<WelcomePage> {
                                                     const MainWrapper()));
                                       },
                                       child: const AppText(
-                                        text: "Let's Go",
+                                        text: "Travel with us",
                                         size: 16,
                                         color: Colors.white,
                                         fontWeight: FontWeight.w300,
